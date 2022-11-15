@@ -70,3 +70,17 @@ set FLASK_DEBUG=1
 ```bash
 flask run
 ```
+
+### End virtualenv
+
+```bash
+deactivate
+```
+
+### Requirements
+
+Si han clonado un proyecto de github y quieren instalar las dependencias, pueden usar el archivo requirements.txt
+
+```bash
+pip install -r requirements.txt
+```

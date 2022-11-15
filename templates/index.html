@@ -1,13 +1,8 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Flask - clase 1</title>
-</head>
-<body>
-  <h1>Hola mundo desde Flask</h1>
-  <h2>Mi nombres {{ nombre }}</h2>
-</body>
-</html>
+{% extends "base.html" %}
+
+{% block content %}
+<h1>Hola mundo desde Flask</h1>
+<p>Mi nombre es {{ nombre }}</p>
+<p>Mi appellido es {{ apellido }}</p>
+<p>Mi telefono es {{ telefono }}</p>
+{% endblock  %}
