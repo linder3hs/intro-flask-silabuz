@@ -1,0 +1,6 @@
+flask
+flask-wtf
+python-dotenv
+Flask-Bootstrap
+flask-sqlalchemy
+mysqlclient

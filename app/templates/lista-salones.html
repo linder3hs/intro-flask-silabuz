@@ -1,0 +1,13 @@
+{% extends "base.html" %}
+
+{% block content %}
+  <div>
+    <h1>Lista Salones</h1>
+
+    <ul>
+      {% for salon in salones  %}
+        <li>{{ salon.aula }} - {{ salon.horaEntrada }} </li>
+      {% endfor %}
+    </ul>
+  </div>
+{% endblock %}
